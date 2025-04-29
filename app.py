@@ -84,4 +84,4 @@ def server(input: Inputs, output: Outputs, session: Session):
 
 # Make sure to set the bookmark_store to `"url"` (or `"server"`)
 # to store the bookmark information/key in the URL query string.
-app = App(app_ui, server, bookmark_store="url")
+app = App(app_ui, server, bookmark_store="server")
